@@ -4,6 +4,6 @@
 Console.WriteLine("Ведите трехзначное число");
 int number = int.Parse(Console.ReadLine());
 
-int digit2 = (number /10) % 10;                   // поиск второй цыфры
+int digit2 = (number / 10) % 10;                   // поиск второй цыфры
 
 Console.WriteLine($"Вторая цыфра числа {digit2}");
